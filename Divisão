@@ -1,0 +1,12 @@
+# calculadora.py
+
+def divisao(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Erro: Divisão por zero!"
+
+# Teste da função
+if _name_ == "_main_":
+    print(f"Divisão: {divisao(6, 3)}")  # Deve imprimir 2.0
+    print(f"Divisão por zero: {divisao(6, 0)}")  # Deve imprimir erro
