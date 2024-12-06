@@ -1,0 +1,8 @@
+# calculadora.py
+
+def multiplicacao(a, b):
+    return a * b
+
+# Teste da função
+if _name_ == "_main_":
+    print(f"Multiplicação: {multiplicacao(5, 3)}")  # Deve imprimir 15
